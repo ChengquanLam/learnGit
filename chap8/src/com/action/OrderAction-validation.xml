@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE validators PUBLIC
+"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+	<field name="order">
+	<!-- 使用visitor校验规则 -->
+		<field-validator type="visitor">
+		<!-- 指定校验规则文件 -->
+			<param name="context">orderContext</param>
+			<!-- 指定校验失败的提示信息前缀 -->
+			<param name="appendPrefix">true</param>
+			<message >订单的</message>
+		</field-validator>
+	</field>
+	
+
+</validators>

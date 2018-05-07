@@ -1,0 +1,55 @@
+<?xmi version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.custom.i18n.resources"
+		value="messageResources" />
+	<package name="Struts2_OGNL_DEMO" extends="struts-default">
+		<!-- 定义拦截器 -->
+
+		<action name="addUser" class="com.action.UserAction"
+			method="addUser">
+			<result name="input">/addUser.jsp</result>
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="login" class="com.action.UserAction"
+			method="login">
+			<result name="input">/login.jsp</result>
+			<result name="success" type="chain">listBooks</result>
+		</action>
+		<action name="addBooks" class="com.action.BooksAction"
+			method="addBooks">
+			<result name="input">/addBooks.jsp</result>
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="listBooks" class="com.action.BooksAction"
+			method="listBooks">
+			<result name="success">/listBooks.jsp</result>
+		</action>
+		<action name="viewDetails" class="com.action.BooksAction"
+			method="viewDetails">
+			<result name="success">/viewBooks.jsp</result>
+			<result name="input">/error.jsp</result>
+		</action>
+		<action name="addCart" class="com.action.BooksAction"
+			method="addCart">
+			<result name="success">/viewCarts.jsp</result>
+		</action>
+		<action name="balance" class="com.action.OrderAction"
+			method="balance">
+		<result name="input">/viewCarts.jsp</result>
+			<result name="success">/addOrder.jsp</result>
+		</action>
+		<action name="addOrder" class="com.action.OrderAction"
+			method="addOrder">
+				<result name="input">/addOrder.jsp</result>
+			<result name="success">/success.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	</package>
+
+</struts>

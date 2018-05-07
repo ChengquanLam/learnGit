@@ -1,0 +1,22 @@
+#
+#Tue Jul 02 22:02:43 ACT 2013
+genBasicCompId=false
+sessionFactoryName=com.dao.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/chap8/hibernate.reveng.xml
+configFile=/chap8/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

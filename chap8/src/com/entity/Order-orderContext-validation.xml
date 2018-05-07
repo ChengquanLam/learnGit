@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE validators PUBLIC
+"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+	<field name="address">
+		<field-validator type="requiredstring">
+			<message key="address.requried" />
+		</field-validator>
+
+	</field>
+	<field name="phone">
+		<field-validator type="requiredstring">
+			<message key="phone.requried" />
+		</field-validator>
+
+	</field>
+	<field name="zipcode">
+		<field-validator type="requiredstring">
+			<message key="zipcode.requried" />
+		</field-validator>
+
+	</field>
+</validators>

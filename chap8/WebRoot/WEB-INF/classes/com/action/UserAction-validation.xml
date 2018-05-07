@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE validators PUBLIC
+"-//OpenSymphony Group//XWork Validator 1.0.2//EN" 
+"http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+<validators>
+	<field name="username">
+		<field-validator type="regex">
+			<param name="trim">true</param>
+			<param name="expression"><![CDATA[(\w{4,25})]]></param>
+			<message >你的用户名长度必须在4到20之间，且必须是字母和数字</message>
+		</field-validator>
+		
+		<field-validator type="requiredstring">
+			<message key="username.requried" />
+		</field-validator>
+
+	</field>
+	<field name="password">
+		<field-validator type="stringlength">
+			<param name="minLength">4</param>
+			<param name="maxLength">10</param>
+			<message key="password.length" />
+		</field-validator>
+		<field-validator type="requiredstring">
+			<message key="password.requried" />
+		</field-validator>
+	</field>
+
+</validators>

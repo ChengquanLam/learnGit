@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/freemarker-2.3.8.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ognl-2.6.11.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-core-2.0.14.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/struts2-dojo-plugin-2.1.8.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-2.0.7.jar"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_2_EM"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_2_CORE"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/c3p0-0.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/hibernate-cglib-repack-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10700/Desktop/框架/实验指导书/框架实验四/实验四/hibernate jar包/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="F:/Config/servlet-api.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
